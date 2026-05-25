@@ -1,5 +1,3 @@
-# JAMF-Bypass
-An light weight way to bypass Jamf mdm realible and 100% free 
 
 # Jamf DNS Bypass (Pc-Less & Free)
 
@@ -15,20 +13,6 @@ When a managed device boots up or connects to the internet, it pings specific Ap
 
 
 
-### ⚠️ PRODUCTION ENVIRONMENT WARNING (TESTING ONLY)
-* **NOT FOR DAILY/REAL USE:** Fryvo strictly declares that this repository and its assets are provided solely as an isolated Proof of Concept (PoC) for educational research and testing purposes. 
-* **DO NOT USE ON PRIMARY DEVICES:** It is **strongly recommended against** deploying this configuration on your daily personal, professional, or academic devices. 
-* **STRICTLY FOR ARCHITECTURAL EVALUATION:** This tool is intended only for sandbox testing, local homelab environments, and theoretical network validation. Fryvo assumes zero responsibility if this experimental logic is implemented in a live production environment or a real-world scenario.
-
-## Demo versions 
-
-## 📥 Download & Deployment Agreement
-
-### IMPORTANT: READ BEFORE PROCEEDING
-By downloading, cloning, copying, fork-building, or deploying any asset, configuration file, or blocklist from Fryvo, you explicitly enter into a legally binding acknowledgment of risk. 
-
-**DOWNLOAD AND INITIALIZATION EQUALS ABSOLUTE AGREEMENT TO THE TERMS OF SERVICE AND PRIVACY POLICY OUTLINED ABOVE.** If you do not agree to every clause, restriction, and complete waiver of liability detailed in the formal terms, you are unauthorized to download or utilize these assets, and you must terminate your connection to Fryvo infrastructure immediately.
-
 ## Self Hosted Setup Instructions
 
 ### Method A: NextDNS (Recommended for Mobile/Individual Devices)
@@ -42,6 +26,30 @@ By downloading, cloning, copying, fork-building, or deploying any asset, configu
 2. Go to **Adlists** or **Blocklists**.
 3. Add the raw URL of the `jamf-domains.txt` file from this GitHub repository.
 4. Save and update your gravity database.
+
+### blocklists
+
+albert.apple.com
+iprofiles.apple.com
+mdmenrollment.apple.com
+deviceenrollment.apple.com
+mesu.apple.com
+configuration.apple.com
+configuration.ls.apple.com
+ocsp2.apple.com
+cdn.smoot.apple.com
+
+jamfschool.com
+jamfnow.com
+jamf.com
+jamfcloud.com
+mdm-na1.jamfcloud.com
+3000619.mdm.jamfschool.com
+root.edu.3000619.jamfschool.com
+ap-northeast-1.resources.school.jamf.com
+leader.edu.3000619.jamfschool.com
+member.edu.3000619.jamfschool.com
+apne1-jschool-prod240117.alb.internal.jamfcloud.com
 
 This logic is open-source. Feel free to modify, share, or build upon this blocklist. If you include this list in other tools, giving credit is highly appreciated!
 
