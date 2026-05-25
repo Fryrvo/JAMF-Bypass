@@ -76,13 +76,10 @@ If you include this list in other tools, giving credit is highly appreciated!(bu
 * **"The Service"** refers to any public demo DNS endpoints, routing structures, or blocklists hosted or maintained by Fryvo.
 * **"The User"** refers to any individual, device, or automated process connecting to, downloading, or applying assets from this project.
 
-### 2. ACKNOWLEDGEMENT OF EXPERIMENTAL RISK (PROOF OF CONCEPT ONLY)
-The Service and documentation provided by Fryvo are deployed strictly as an experimental, educational Proof of Concept (PoC). The project exists solely to demonstrate the theoretical mechanics of network-layer domain mitigation against third-party Mobile Device Management (MDM) frameworks. 
-
 * **No Commercial Warranty:** The Service is NOT a commercial software product and is NOT intended, designed, or optimized for daily operational use, production environments, or deployment on primary personal, commercial, or academic hardware.
 * **User Assumption of Risk:** By utilizing the public demo server or applying configurations from this repository, the User explicitly acknowledges that they are executing unverified network alterations at their own sole discretion and risk.
 
-### 3. PRIVACY POLICY & DATA HANDLING (PUBLIC DEMO ENDPOINT)
+### 2. PRIVACY POLICY & DATA HANDLING (PUBLIC DEMO ENDPOINT)
 In the event that a User establishes a network connection to the public demonstration endpoint hosted by Fryvo, the User explicitly consents to the following data practices, limitations, and operational realities:
 
 * **Non-Commercialization Pledge:** Fryvo guarantees that it will not sell, lease, publish, trade, or intentionally distribute the User's internet traffic queries, Internet Protocol (IP) addresses, or Domain Name System (DNS) logs to external corporate marketing entities or third-party data brokers.
@@ -90,16 +87,13 @@ In the event that a User establishes a network connection to the public demonstr
 * **Unannounced Modification of Infrastructure:** Fryvo retains the absolute right to alter, modify, reset, or radically transform the architecture, logging practices, data retention limits, and backend protocols of the Service at any given moment **without prior warning, written notification, or disclosure** to the User.
 * **Data Transmission Liability:** If the User routes sensitive personal information, credentials, authentication tokens, financial data, or private communications through the Service and experiences a data breach or interception, the User accepts total, undivided liability for that outcome.
 
-### 4. COMPLETE EXCLUSION OF LIABILITY (INDEMNIFICATION)
+### 3. COMPLETE EXCLUSION OF LIABILITY (INDEMNIFICATION)
 Under no circumstances shall Fryvo, its developers, or associated entities be held legally or financially liable for any direct, indirect, incidental, consequential, special, or exemplary damages, financial losses, or system errors resulting from the use, misuse, execution, or implementation of this repository, its blocklists, or the Service. This comprehensive exclusion of liability covers, but is not limited to:
 
 * **Hardware Malfunction & Failures:** Device instability, system lockups, boot-loops, loss of local network connectivity, failure to receive essential operating system updates, or errors requiring a factory hardware reset.
 * **Institutional Discipline & Compliance Violations:** Any disciplinary actions, academic suspensions, expulsions, employment terminations, or legal actions faced by the User from schools, universities, employers, or network IT administrators for circumventing internal administrative network policies.
 * **External Interception:** The monitoring, logging, or tracking of user traffic by local Internet Service Providers (ISPs), network gateways, or malicious third-party actors.
 
-### 5. LEGAL USE AND THIRD-PARTY TRADEMARKS
+### 4. LEGAL USE AND THIRD-PARTY TRADEMARKS
 This project operates with zero affiliation, association, authorization, sponsorship, or endorsement from Jamf Pro, Apple Inc., or any of their subsidiary corporate brands. All product names, logos, and registered trademarks remain the exclusive property of their respective owners. 
-
 The Service and configurations are shared under the prerequisite that the User possesses full legal ownership, administrative authority, and explicit authorization over the specific hardware device they are altering. Circumventing administrative profiles on institutional property that does not belong to the User may violate regional network access laws, institutional codes of conduct, or corporate terms of service. Fryvo does not condone, encourage, or facilitate unauthorized network exploitation.
-
-**BY ENGAGING WITH, DEPLOYING, OR CONNECTING TO ANY ASSET OR SERVICE MAINTAINED BY FRYVO, YOU EXPLICITLY CONFIRM THAT YOU HAVE READ, UNDERSTOOD, AND AGREED TO THESE TERMS, AND INTEND TO HOLD THE PROVIDER COMPLETELY BLAMELESS FOR ANY RESULTING DATA OUTAGES, SYSTEM CRASHES, OR DISCIPLINARY CONSEQUENCES.**
