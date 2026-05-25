@@ -62,10 +62,11 @@ By downloading you explicitly enter into a legally binding acknowledgment of ris
 * member.edu.3000619.jamfschool.com
 * apne1-jschool-prod240117.alb.internal.jamfcloud.com
 
-it highly recommended to get an list form jamf-domains.txt
+it highly recommended to get an list form `/jamf-domains.txt`
+Feel free to modify, share, or build upon this blocklist. 
+If you include this list in other tools, giving credit is highly appreciated!(but it not required)
 
 
-This logic is open-source. Feel free to modify, share, or build upon this blocklist. If you include this list in other tools, giving credit is highly appreciated!
 
 
 ## ⚖️ Terms of Service, Privacy Policy, and Liability Disclaimer
