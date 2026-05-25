@@ -18,45 +18,45 @@ When a managed device boots up or connects to the internet, it pings specific Ap
 ### Method A: NextDNS (Recommended for Mobile/Individual Devices)
 1. Go to [NextDNS](https://nextdns.io) and create a free account.
 2. In your dashboard, navigate to the **Denylist** tab.
-3. Copy the domains from the `blocklists/jamf-domains.txt` file in this repository and paste them in.
+3. Copy the domains from the `/jamf-domains.txt` file in this repository and paste them in.
 4. Go to the **Setup** tab on NextDNS, download the configuration profile for your device (iOS, macOS, Android), and install it.
 
 ### Method B: Homelab (Pi-hole / AdGuard Home)
 1. Open your local Pi-hole or AdGuard Home dashboard.
 2. Go to **Adlists** or **Blocklists**.
-3. Add the raw URL of the `jamf-domains.txt` file from this GitHub repository.
+3. Add the raw URL of the `/jamf-domains.txt` file from this GitHub repository.
 4. Save and update your gravity database.
 
 ### blocklists
 
-albert.apple.com
-iprofiles.apple.com
-mdmenrollment.apple.com
-deviceenrollment.apple.com
-mesu.apple.com
-configuration.apple.com
-configuration.ls.apple.com
-ocsp2.apple.com
-cdn.smoot.apple.com
+* albert.apple.com
+* iprofiles.apple.com
+* mdmenrollment.apple.com
+* deviceenrollment.apple.com
+* mesu.apple.com
+* configuration.apple.com
+* configuration.ls.apple.com
+* ocsp2.apple.com
+* cdn.smoot.apple.com
 
-jamfschool.com
-jamfnow.com
-jamf.com
-jamfcloud.com
-mdm-na1.jamfcloud.com
-3000619.mdm.jamfschool.com
-root.edu.3000619.jamfschool.com
-ap-northeast-1.resources.school.jamf.com
-leader.edu.3000619.jamfschool.com
-member.edu.3000619.jamfschool.com
-apne1-jschool-prod240117.alb.internal.jamfcloud.com
+* jamfschool.com
+* jamfnow.com
+* jamf.com
+* jamfcloud.com
+* mdm-na1.jamfcloud.com
+* 3000619.mdm.jamfschool.com
+* root.edu.3000619.jamfschool.com
+* ap-northeast-1.resources.school.jamf.com
+* leader.edu.3000619.jamfschool.com
+* member.edu.3000619.jamfschool.com
+* apne1-jschool-prod240117.alb.internal.jamfcloud.com
 
 This logic is open-source. Feel free to modify, share, or build upon this blocklist. If you include this list in other tools, giving credit is highly appreciated!
+
 
 ## ⚖️ Terms of Service, Privacy Policy, and Liability Disclaimer
 
 ### 1. DEFINITIONS AND SCOPE OF AGREEMENT
-This document constitutes a binding legal notice governing the use of this repository, its associated configuration files, and any experimental public demonstration network endpoints provided. 
 * **"Provider"** refers to Fryvo, including any infrastructure, maintainers, or development entities operating under this project.
 * **"The Service"** refers to any public demo DNS endpoints, routing structures, or blocklists hosted or maintained by Fryvo.
 * **"The User"** refers to any individual, device, or automated process connecting to, downloading, or applying assets from this project.
