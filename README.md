@@ -27,6 +27,18 @@ When a managed device boots up or connects to the internet, it pings specific Ap
 3. Add the raw URL of the `/jamf-domains.txt` file from this GitHub repository.
 4. Save and update your gravity database.
 
+## Demo versions 
+
+## 📥 Download & Deployment Agreement
+
+### demo version make and hosted on NEXT DNS 
+
+### you can get demo version on project link 
+
+### IMPORTANT: READ BEFORE PROCEEDING
+By downloading you explicitly enter into a legally binding acknowledgment of risk. 
+
+
 ### blocklists
 
 * albert.apple.com
@@ -50,6 +62,9 @@ When a managed device boots up or connects to the internet, it pings specific Ap
 * leader.edu.3000619.jamfschool.com
 * member.edu.3000619.jamfschool.com
 * apne1-jschool-prod240117.alb.internal.jamfcloud.com
+
+it highly recommended to get an list form jamf-domains.txt
+
 
 This logic is open-source. Feel free to modify, share, or build upon this blocklist. If you include this list in other tools, giving credit is highly appreciated!
 
