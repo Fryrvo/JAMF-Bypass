@@ -29,13 +29,11 @@ When a managed device boots up or connects to the internet, it pings specific Ap
 
 ## Demo versions 
 
-## 📥 Download & Deployment Agreement
+### 📥 Download & Deployment Agreement
 
 demo version make and hosted on NEXT DNS 
 you can get demo version on project link 
 
-### IMPORTANT: READ BEFORE PROCEEDING
-By downloading you explicitly enter into a legally binding acknowledgment of risk. 
 
 
 # blocklists
