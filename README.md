@@ -1,5 +1,5 @@
 
-# Jamf DNS Bypass (Pc-Less & Free)
+# Jamf DNS Bypass
 
 A simple, lightweight method to block Jamf MDM profiles from checking in or enforcing restrictions on devices. This method **does not require a PC**, paid tools, or jailbreaking/rooting. It works purely at the network layer by cutting off communication to management servers.
 
