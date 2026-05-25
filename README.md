@@ -27,8 +27,7 @@ When a managed device boots up or connects to the internet, it pings specific Ap
 3. Add the raw URL of the `/jamf-domains.txt` file from this GitHub repository.
 4. Save and update your gravity database.
 
-## Demo versions 
-
+### Demo versions 
 ### 📥 Download & Deployment Agreement
 
 demo version make and hosted on NEXT DNS 
