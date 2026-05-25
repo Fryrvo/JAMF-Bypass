@@ -35,7 +35,7 @@ demo version make and hosted on NEXT DNS
 you can get demo version on project link 
 
 ### IMPORTANT: READ BEFORE PROCEEDING
-# By downloading you explicitly enter into a legally binding acknowledgment of risk. 
+By downloading you explicitly enter into a legally binding acknowledgment of risk. 
 
 
 # blocklists
