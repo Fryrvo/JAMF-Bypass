@@ -60,7 +60,7 @@ you can get demo version on project link
 * apne1-jschool-prod240117.alb.internal.jamfcloud.com
 ```
 
-it highly recommended to get an list form `/jamf-domains.txt`
+it highly recommended to get an list form `jamf-domains.txt`
 Feel free to modify, share, or build upon this blocklist. 
 If you include this list in other tools, giving credit is highly appreciated!(but it not required)
 
