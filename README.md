@@ -28,7 +28,7 @@ When a managed device boots up or connects to the internet, it pings specific Ap
 4. Save and update your gravity database.
 
 ### Demo versions 
-### 📥 Download & Deployment Agreement
+### Download & Deployment Agreement
 
 demo version make and hosted on NEXT DNS 
 you can get demo version on project link 
