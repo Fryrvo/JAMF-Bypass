@@ -1,21 +1,20 @@
 
 # Jamf DNS Bypass
 
-A simple, lightweight method to block Jamf MDM profiles from checking in or enforcing restrictions on devices. This method **does not require a PC**, paid tools, or jailbreaking/rooting. It works purely at the network layer by cutting off communication to management servers.
+A simple, lightweight method to block Jamf MDM profiles This method **does not require a PC**, paid tools, or jailbreaking/rooting. 
 
 > ⚠️ **Privacy Notice:** 
-We do not recommend using demo DNS profile 
-To protect your data privacy and prevent bandwidth logs from being collected
-It highly recommended use your own private configuration via trusted providers like NextDNS or local tools like Pi-hole.
+i do not recommend using demo DNS profile 
+use your own DNS like NextDNS or local tools like Pi-hole.
 
 ## How It Works
-When a managed device boots up or connects to the internet, it pings specific Apple and Jamf servers to pull down restrictions. By using a custom DNS layer, we drop those requests before they ever reach the device, rendering the management profiles inactive.
+When a managed device boots up or connects to the internet, it pings specific Apple and Jamf servers to pull down MDM. By using a DNS, we drop those requests before they ever reach the device
 
 
 
 ## Self Hosted Setup Instructions
 
-### Method A: NextDNS (Recommended for Mobile/Individual Devices)
+### Method A: NextDNS
 1. Go to [NextDNS](https://nextdns.io) and create a free account.
 2. In your dashboard, navigate to the **Denylist** tab.
 3. Copy the domains from the `jamf-domains.txt` file in this repository or blocklist below and paste them in.
@@ -26,14 +25,6 @@ When a managed device boots up or connects to the internet, it pings specific Ap
 2. Go to **Adlists** or **Blocklists**.
 3. Add the raw URL of the `jamf-domains.txt` file from this GitHub repository or blocklist below.
 4. Save and update your gravity database.
-
-### Demo versions 
-### Download & Deployment Agreement
-
-demo version make and hosted on NEXT DNS 
-you can get demo version on project link 
-
-
 
 ### blocklists
 ```text
@@ -60,21 +51,7 @@ you can get demo version on project link
 * apne1-jschool-prod240117.alb.internal.jamfcloud.com
 ```
 
-it highly recommended to get an list form `jamf-domains.txt`
-Feel free to modify, share, or build upon this blocklist. 
-If you include this list in other tools, giving credit is highly appreciated!(but it not required)
+get an full list form `jamf-domains.txt`
 
-
-
-
-# ⚖️ Liability Disclaimer
-
-* **No Commercial Warranty:** The Service is NOT a commercial software product and is NOT intended, designed, or optimized for daily operational use, production environments, or deployment on primary personal, commercial, or academic hardware.
-* 
-* **User Assumption of Risk:** By utilizing the public demo server or applying configurations from this repository, the User explicitly acknowledges that they are executing unverified network alterations at their own sole discretion and risk.
-
-### COMPLETE EXCLUSION OF LIABILITY (INDEMNIFICATION)
-Under no circumstances shall Fryvo or associated entities be held legally or financially liable for any direct, indirect, incidental, consequential, special, or exemplary damages, financial losses, or system errors resulting from the use, misuse, execution, or implementation of this repository, its blocklists, or the Service. This comprehensive exclusion of liability covers, but is not limited to:
-
-* **Hardware Malfunction & Failures:** Device instability, system lockups, boot-loops, loss of local network connectivity, failure to receive essential operating system updates, or errors requiring a factory hardware reset.
-* **Institutional Discipline & Compliance Violations:** Any disciplinary actions, academic suspensions, expulsions, employment terminations, or legal actions faced by the User from schools, universities, employers, or network IT administrators for circumventing internal administrative network policies.
+## ⚖️ Liability Disclaimer
+### use at your own risk i do not responsible for any outcome 
